@@ -11,6 +11,7 @@ const hours = document.querySelector('[data-hours]');
 const minutes = document.querySelector('[data-minutes]');
 const seconds = document.querySelector('[data-seconds]');
 
+startButton.disabled = true;
 let selectedDate = null; // зберігає обрану дату
 let timerId = null;
 
